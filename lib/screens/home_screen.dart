@@ -1,5 +1,6 @@
 // ignore_for_file: library_private_types_in_public_api, avoid_print, prefer_const_constructors, deprecated_member_use
 import 'package:flutter/material.dart';
+import 'package:about/about.dart';
 import 'package:delfcoff/screens/signin_screen.dart';
 import 'package:delfcoff/utils/color_utils.dart';
 import 'package:delfcoff/screens/cardapio_screen.dart';
@@ -158,7 +159,21 @@ class _HomeScreenState extends State<HomeScreen> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: const Text('Sobre'),
+          title: Column(
+          children:[
+            Text('Sobre'),
+            const SizedBox(height: 50),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Image.network('assets/images/caio.jpg', width: 75, height: 75, fit: BoxFit.contain,),
+                const SizedBox(width: 50),
+                Image.network('assets/images/gustavo.jpg', width: 75, height: 75, fit: BoxFit.contain,),
+              ],
+            ),
+            const SizedBox(height: 50),
+          ]),
           content: const Text('Aplicativo Delf Coffee por Gustavo Lisi e Caio Lizardo, com o objetivo de divulgação e captação de clientes para venda de produtos da marca.'),
           actions: <Widget>[
             TextButton(
