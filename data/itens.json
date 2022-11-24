@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "nome": "Café Filtrado",
+        "valor": "R$ 7,50",
+        "quantidade": "200",
+        "unidade": "ml",
+        "descricao": "Café preparado com método tradicional. Filtro de papel",
+        "texto" :"Texto de descrição do Café preparado com método tradicional. Filtro de papel."
+    },
+    {
+        "id": 2,
+        "nome": "Pingado",
+        "valor": "R$ 8,50",
+        "quantidade": "220",
+        "unidade": "ml",
+        "descricao": "Café filtrado com leite desnatado.",
+        "texto" :"Texto de descrição do Café filtrado com leite desnatado."
+    },
+    {
+        "id": 3,
+        "nome": "Latte",
+        "valor": "R$ 9,90",
+        "quantidade": "200",
+        "unidade": "ml",
+        "descricao": "Café espresso com leite e calda de caramelo.",
+        "texto" :"Texto de descrição do Café espresso com leite e calda de caramelo."
+    },
+    {
+        "id": 4,
+        "nome": "Mocha",
+        "valor": "R$ 15,99",
+        "quantidade": "200",
+        "unidade": "ml",
+        "descricao": "Café espresso com leite e chocolate cremoso",
+        "texto" :"Texto de descrição do Café espresso com leite e chocolate cremoso."
+    },
+    {
+        "id": 5,
+        "nome": "Cappuccino",
+        "valor": "R$ 12,90",
+        "quantidade": "250",
+        "unidade": "ml",
+        "descricao": "Espresso com leite vaporizado e calda de caramelo",
+        "texto" :"Texto de descrição do Espresso com leite vaporizado e calda de caramelo."
+    }
+]

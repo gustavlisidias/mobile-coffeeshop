@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "487554726637",
+    "project_id": "delfcoffee",
+    "storage_bucket": "delfcoffee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487554726637:android:b230ffb076698ae375aae4",
+        "android_client_info": {
+          "package_name": "com.example.delfcoff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487554726637-d32ts27d6h4mf5vils070mv8tc7au65v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.delfcoff",
+            "certificate_hash": "0b071e9ce36e9aa7fbf8bcbfa40e5705acac49f4"
+          }
+        },
+        {
+          "client_id": "487554726637-ohiot811piivethjj5jruq5m7aoppkt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXvvU70J7JjuTHujDk_yPfEdF6JGYMcMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487554726637-ohiot811piivethjj5jruq5m7aoppkt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
